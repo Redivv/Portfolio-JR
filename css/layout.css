@@ -1,0 +1,339 @@
+/* START ogólne */
+*
+{
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover
+{
+	text-decoration:none;
+}
+a, a:hover, a:active, a:visited
+{
+	text-decoration:none !important;
+}
+a:active, a:visited
+{
+	color:#fff;
+}
+
+.color
+{
+	color: #1b8fd1 !important;
+}
+.bgcolor
+{
+	background-color:#f00 !important;
+}
+.opis
+{
+	text-align:center;
+	background:url('../img/linia.png') center center repeat-x;
+	font-size:30px;
+	padding:20px 0;
+}
+.opis span
+{
+	background:#fff;
+	padding:0 10px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.arrow
+{
+	padding:8px;
+	color:#fff;
+	font-size:32px;
+	cursor:pointer;
+	position:fixed;
+	bottom:0;
+	right:20px;
+	border-radius:20px 20px 0 0;
+	bottom:-200px;
+}
+.arrow:hover
+{
+	padding:10px 10px 20px 10px;
+}
+.arrow:hover .fa
+{
+	transform:rotate(-45deg);
+}
+.arrowIn
+{
+	bottom:0px;
+}
+/* END ogólne */
+
+/* START naglowek */
+
+.naglowek
+{
+	height:100vh;
+	background:url('../img/bg.jpg') center center no-repeat;
+	background-size:cover;
+}
+.naglowek_line1
+{
+	text-align:center;
+	color:#FFF;
+	font-size:72px;
+	font-weight:bold;
+}
+.naglowek_line2
+{
+	text-align:center;
+	color:#FFF;
+	font-size:36px;
+	font-weight:bold;
+}
+/* END naglowek */
+
+/* START about */
+.about
+{
+	
+}
+.about_line1
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:72px;
+}
+.about_line2
+{
+	text-align:right;
+	font-size:24px;
+	text-transform:uppercase;
+}
+.about_line3
+{
+	padding-top:15px;
+	text-align:justify;
+	font-size:14px;
+}
+/* END about */
+
+/* START ikony */
+.ikona
+{
+	display:block;
+	color:#222 !important;
+	text-align:center;
+	padding:20px 0;
+}
+.ikona_line1
+{
+	font-size:72px;
+}
+.ikona_line2
+{
+	font-size:24px;
+}
+.ikona_line3
+{
+	font-size:18px;
+}
+/* END ikony */
+
+/* START cv */
+.cv
+{
+	background:url('../img/cvbg.jpg') center center no-repeat;
+	background-size:100% auto;
+	background-attachment:fixed;
+}
+.cvbtn
+{
+	display:block;
+	margin:0 auto;
+	width:300px;
+	text-align:center;
+	color:#fff;
+	padding:10px 0;
+	font-size:48px;
+	font-weight:bold;
+	border-radius:20px;
+}
+.cvbtn:hover
+{
+	color:#222;
+}
+/* END cv */
+
+/* START umiejętności */
+.skills
+{
+	
+}
+.skills_ico
+{
+	color:#aaa;
+	float:right;
+	font-size:22px;	
+}
+.skills_desc
+{
+	text-align:center;
+	font-size:16px;
+	color:#888;
+}
+.skills_star
+{
+	color:#aaa;
+	font-size:22px;
+}
+/* END umiejętności */
+/* START projekty */
+.projects
+{
+	
+}
+.slider_title
+{
+	font-size:30px;
+	font-weight:bold;
+	text-align:left;
+	text-transform:uppercase;
+	margin-left:10px;
+	
+}
+.slider_desc
+{
+	text-align:left;
+	padding-left:30px;	
+}
+.slider_date
+{
+	font-size:14px;
+	text-align:right;
+	margin-right:10px;
+}
+.slider_btn
+{
+	display:block;
+	padding:5px 10px;
+	float:right;
+	color:#fff !important;
+	margin-top:10px;
+	border-radius:5px;
+	font-size:22px;
+	margin-right:20px;
+}
+/* END projekty */
+
+/* START projekty mobile */
+.project_box
+{
+	min-height:50px;
+	min-width:50px;
+}
+.project_pic
+{
+	border:1px solid #000;
+}
+.project_title
+{
+	font-size:20px;
+	text-align:center;
+}
+/* END projekty mobile */
+
+/* START inne */
+.others
+{
+	
+}
+.others_onebox
+{
+	box-shadow:0px 0px 1px 0px #ccc;
+	padding:5px;
+	border-radius:5px;
+	margin-bottom:30px;
+	min-height:350px;
+}
+.others_onebox:hover
+{
+	box-shadow:0px 0px 10px 0px #666;
+}
+.others_onebox h3
+{
+	text-align:center;
+	letter-spacing:2px;
+	font-size:14px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+}
+.language_title
+{
+	font-size:16px;
+	font-weight:bold;
+}
+.language_box
+{
+	padding-left:20%;
+}
+.others_others
+{
+	text-align:center;
+	font-weight:bold;
+}
+.others_list
+{
+	list-style-type:none;
+	padding:0;	
+}
+/* END inne */
+
+/*START stopka */
+.footer
+{
+	background:#222;
+	padding:25px 0;
+}
+.footer_copy
+{
+	color:#f0f0f0;
+	text-align:center;
+	font-size:12px;
+}
+/* END stopka */
+
+/* START form */
+.kontakt_box_all1
+{
+	
+}
+.kontakt_box_all2
+{
+	padding:100px 0;
+	text-align:center;
+	display:none;
+}
+.contact_elem
+{
+	border:0px;
+	border-bottom:1px solid #aaa;
+	padding:5px 2%;
+	width:80%;
+	margin-left:8%;
+}
+.error
+{
+	text-align:right;
+	color:#900;
+	padding-right:12%;
+	font-size:11px;
+}
+.contact_btn
+{
+	width:200px;
+	padding:10px 0;
+	text-align:center;
+	color:#fff;
+	cursor:pointer;
+	border-radius:10px;
+	margin:20px auto;
+	font-weight:bold;
+}
+/* END form */

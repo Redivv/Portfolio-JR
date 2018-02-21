@@ -1,0 +1,13 @@
+.carousel-caption {
+    right: 0;
+    left: 0;
+	padding-top:10px;
+    padding-bottom: 0px;
+	background:rgba(0,0,0,0.7);
+	bottom:0px;
+	height:20%;
+}
+.carousel-control
+{
+	bottom:20%;
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width: 800px)
+{
+	.cv
+	{
+		background-attachment:inherit;
+	}
+}
+@media screen and (max-width: 560px)
+{
+	.naglowek_line1
+	{
+		font-size:22px;
+	}
+	.naglowek_line2
+	{
+		font-size:18px;
+	}
+	.about_line1
+	{
+		font-size:32px;
+	}
+	.about_line2
+	{
+		font-size:22px;
+		text-align:center;
+	}
+}
+@media screen and (max-width: 460px)
+{
+	.cvbtn
+	{
+		font-size:28px;
+	}
+}
