@@ -91,7 +91,7 @@ a:active, a:visited
 /* START about */
 .about
 {
-	
+
 }
 .about_line1
 {
@@ -163,13 +163,13 @@ a:active, a:visited
 /* START umiejętności */
 .skills
 {
-	
+
 }
 .skills_ico
 {
 	color:#aaa;
 	float:right;
-	font-size:22px;	
+	font-size:22px;
 }
 .skills_desc
 {
@@ -186,7 +186,7 @@ a:active, a:visited
 /* START projekty */
 .projects
 {
-	
+
 }
 .slider_title
 {
@@ -195,12 +195,12 @@ a:active, a:visited
 	text-align:left;
 	text-transform:uppercase;
 	margin-left:10px;
-	
+
 }
 .slider_desc
 {
 	text-align:left;
-	padding-left:30px;	
+	padding-left:30px;
 }
 .slider_date
 {
@@ -218,6 +218,12 @@ a:active, a:visited
 	border-radius:5px;
 	font-size:22px;
 	margin-right:20px;
+}
+.carousel-inner{
+	position: relative;
+}
+.carousel-control{
+	position: absolute;
 }
 /* END projekty */
 
@@ -241,7 +247,7 @@ a:active, a:visited
 /* START inne */
 .others
 {
-	
+
 }
 .others_onebox
 {
@@ -281,7 +287,7 @@ a:active, a:visited
 .others_list
 {
 	list-style-type:none;
-	padding:0;	
+	padding:0;
 }
 /* END inne */
 
@@ -302,7 +308,7 @@ a:active, a:visited
 /* START form */
 .kontakt_box_all1
 {
-	
+
 }
 .kontakt_box_all2
 {
