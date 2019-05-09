@@ -23,14 +23,14 @@ function validateTypes($type='', $text='') {
 
 function mailsend($txt='', $header='' , $mail='j.rajca45@gmail.com'){
         // Naglowki mozna sformatowac tez w ten sposob.
-        $naglowki = "From: Portfolio <info@jakubrajca.pl>".PHP_EOL;
+        $naglowki = "From: Portfolio <info@wipaka.com.pl>".PHP_EOL;
         $naglowki .= "MIME-Version: 1.0".PHP_EOL;
-        $naglowki .= "Content-type: text/html; charset=utf-8".PHP_EOL; 
+        $naglowki .= "Content-type: text/html; charset=utf-8".PHP_EOL;
 
         //Wiadomość najczęściej jest generowana przed wywołaniem funkcji
-        $wiadomosc = '<html> 
-        <head> 
-           <title>'.$header.'</title> 
+        $wiadomosc = '<html>
+        <head>
+           <title>'.$header.'</title>
         </head>
         <body>
            '.$txt.'
@@ -40,12 +40,12 @@ function mailsend($txt='', $header='' , $mail='j.rajca45@gmail.com'){
             $header='No title';
         }
 
-        return mail($mail, $header, $wiadomosc, $naglowki, 'info@jakubrajca.pl');
-        
+        return mail($mail, $header, $wiadomosc, $naglowki, 'info@wipaka.com.pl');
+
 }
 
 	$errors = array();
-        
+
 	$name = trim($_POST['name']);
 	$email = trim($_POST['email']);
 	$text  = trim($_POST['text']);
@@ -64,7 +64,7 @@ function mailsend($txt='', $header='' , $mail='j.rajca45@gmail.com'){
 		$result = array( 'type' => 'error', 'code' => $errors);
 	}else{
 		$result = array( 'type' => 'success', 'code' => 'Dziękujemy za wysłanie wiadomości');
-		
+
 		$txt  = '<b>name:</b> '.$name.'<br>';
 		$txt .= '<b>email:</b> '.$email.'<br>';
 		$txt .= '<b>text:</b> '.$text.'<br>';
@@ -73,6 +73,6 @@ function mailsend($txt='', $header='' , $mail='j.rajca45@gmail.com'){
 
 	$result = json_encode($result);
 	echo $result;
-	die();  
- 
+	die();
+
 ?>
