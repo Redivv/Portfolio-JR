@@ -138,7 +138,7 @@ a:active, a:visited
 /* START cv */
 .cv
 {
-	background:url('../img/cvbg.jpg') center center no-repeat;
+	background:url('../img/bg.jpg') center center no-repeat;
 	background-size:100% auto;
 	background-attachment:fixed;
 }
